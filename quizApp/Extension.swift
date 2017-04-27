@@ -15,7 +15,7 @@ extension NSMutableArray {
     func shuffle(_ count: Int) {
         for i in 0..<count {
             let nElements: Int = count - i
-            let n: Int = Int(arc4random_uniform(UInt32(nElements))) + i //1じゃないの？
+            let n: Int = Int(arc4random_uniform(UInt32(nElements))) + i //iは自分の位置までずらしている（要素の自分位置）
             self.exchangeObject(at: i, withObjectAt: n)
         }
     }

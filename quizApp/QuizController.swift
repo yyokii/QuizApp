@@ -295,7 +295,7 @@ class QuizController: UIViewController, UITextViewDelegate, UINavigationControll
             let gameScoreObject = GameScore.create()
             gameScoreObject.correctAmount = self.correctProblemNumber
             gameScoreObject.timeCount = NSString(format:"%.3f", self.totalSeconds) as String
-            gameScoreObject.createDate = Date()
+            gameScoreObject.createDate = Date() as NSDate
             gameScoreObject.save()
             
             //次のコントローラーへ遷移する

@@ -13,6 +13,8 @@
 		D3182FA51EACF7E2005598A7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3182FA41EACF7E1005598A7 /* Extension.swift */; };
 		D3182FA81EAE30BD005598A7 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3182FA71EAE30BD005598A7 /* GameScore.swift */; };
 		D3182FAA1EAE3330005598A7 /* ScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3182FA91EAE3330005598A7 /* ScoreController.swift */; };
+		D33659251EB56C0F00F8AD59 /* scoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33659231EB56C0F00F8AD59 /* scoreCell.swift */; };
+		D33659261EB56C0F00F8AD59 /* scoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33659241EB56C0F00F8AD59 /* scoreCell.xib */; };
 		D3E298931EACBBA300BA242F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E298921EACBBA300BA242F /* AppDelegate.swift */; };
 		D3E298951EACBBA300BA242F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E298941EACBBA300BA242F /* ViewController.swift */; };
 		D3E298981EACBBA300BA242F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E298961EACBBA300BA242F /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		D3182FA41EACF7E1005598A7 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		D3182FA71EAE30BD005598A7 /* GameScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
 		D3182FA91EAE3330005598A7 /* ScoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreController.swift; sourceTree = "<group>"; };
+		D33659231EB56C0F00F8AD59 /* scoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreCell.swift; sourceTree = "<group>"; };
+		D33659241EB56C0F00F8AD59 /* scoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scoreCell.xib; sourceTree = "<group>"; };
 		D3E2988F1EACBBA300BA242F /* quizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E298921EACBBA300BA242F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E298941EACBBA300BA242F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			children = (
 				D3E298A81EACC9D200BA242F /* guidanceCell.swift */,
 				D3E298A91EACC9D200BA242F /* guidanceCell.xib */,
+				D33659231EB56C0F00F8AD59 /* scoreCell.swift */,
+				D33659241EB56C0F00F8AD59 /* scoreCell.xib */,
 			);
 			name = Cells;
 			path = ..;
@@ -209,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E2989D1EACBBA300BA242F /* LaunchScreen.storyboard in Resources */,
+				D33659261EB56C0F00F8AD59 /* scoreCell.xib in Resources */,
 				D3E2989A1EACBBA300BA242F /* Assets.xcassets in Resources */,
 				D3182FA31EACD5C3005598A7 /* problem.csv in Resources */,
 				D3E298A61EACBD6F00BA242F /* guidance.csv in Resources */,
@@ -278,6 +285,7 @@
 				D3182FAA1EAE3330005598A7 /* ScoreController.swift in Sources */,
 				D3E298951EACBBA300BA242F /* ViewController.swift in Sources */,
 				D3E298931EACBBA300BA242F /* AppDelegate.swift in Sources */,
+				D33659251EB56C0F00F8AD59 /* scoreCell.swift in Sources */,
 				D3E298AA1EACC9D200BA242F /* guidanceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -63,8 +63,8 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UITableVi
         self.guideTableView.dataSource = self
         
         //自動計算の場合は必要
-        self.guideTableView.estimatedRowHeight = 48
-        self.guideTableView.rowHeight = UITableViewAutomaticDimension
+        //self.guideTableView.estimatedRowHeight = 100
+        //self.guideTableView.rowHeight = UITableViewAutomaticDimension
         
         //Xibのクラスを読み込む、nibname はファイル名を入力
         let nibDefault:UINib = UINib(nibName: "guidanceCell", bundle: nil)
@@ -77,6 +77,10 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return GuidanceTableStruct.cellCount
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

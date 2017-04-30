@@ -30,7 +30,7 @@ class GameScore: Object {
         return "id"
     }
     
-    //新規追加用のインスタンス生成メソッド
+    //新規追加用のインスタンス生成メソッド //id(プライマリーキー)作成＆インスタンス生成
     static func create() -> GameScore {
         let gameScore = GameScore()
         gameScore.id = self.getLastId()

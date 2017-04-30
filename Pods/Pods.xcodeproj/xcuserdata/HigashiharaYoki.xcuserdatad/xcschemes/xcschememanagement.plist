@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-quizApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>58A6D3EEE5F024B11AD210CBF09CF363</key>
+		<key>5F83AA2BDFA3808B2AFEB6B47E392370</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A6CC6522A3CC8FF4CB03CD5F2576C9D9</key>
+		<key>9132EB783BE0A9CC12B9A81269674382</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A80132BD3374C4E623AE986E81EB40D2</key>
+		<key>D8BC3FEFA53EFBF67DAF6B05D30D6DCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
 		<dict>
 			<key>primary</key>
 			<true/>
